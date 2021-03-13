@@ -5,10 +5,11 @@ from base64 import b64encode
 from base64 import b64decode
 
 password = b'YOURsuperSECRETpassword'
+
 salt = get_random_bytes(16)
 print("Your salt key (use in the login html):")
 print(b64encode(salt).decode('utf-8'))
-#salt = bytes.fromhex("7d55577140292842")
+
 keys = PBKDF2(password, salt, 32, count=456789, hmac_hash_module=SHA512)
 print("Your PBKDF2 key (use in the WSGI code):")
 print(''.join('{:02x}'.format(x) for x in keys))
