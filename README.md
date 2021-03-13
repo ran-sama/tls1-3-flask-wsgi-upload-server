@@ -24,6 +24,19 @@ https://pypi.org/project/streaming-form-data/
 
 ![alt text](https://raw.githubusercontent.com/ran-sama/flask-wsgi-upload-server/master/screenshots/successful_upload.png)
 
+## Generate your own PBKDF2 credentials:
+
+
+```
+$ python3 derive_key.py
+Your salt key (use in the login html):
+qNv83XARvwWcGeBYPvbXAg==
+Your PBKDF2 key (use in the WSGI code):
+b31300bd83a0bfc3e5197df305fbc00b864526f6ac6ac4f91c4352a36fa79088
+```
+
+Must edit server_UL.py and login.html with your OWN keys. Don't use the defaults.
+
 
 ## License
 Licensed under the WTFPL license.
