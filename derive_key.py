@@ -4,7 +4,7 @@ from Crypto.Random import get_random_bytes
 from base64 import b64encode
 from base64 import b64decode
 
-password = b'YOURsuperSECRETpassword'
+password = b'usernameANDpassword'
 
 salt = get_random_bytes(16)
 print("Your salt (use in the login html):")
