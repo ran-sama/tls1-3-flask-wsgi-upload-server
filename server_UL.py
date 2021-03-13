@@ -6,8 +6,8 @@ from streaming_form_data import StreamingFormDataParser
 from streaming_form_data.targets import FileTarget
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = "/media/kingdian/uploader_priv/"
-MY_UPLOAD_DIR = "/media/kingdian/uploader_priv"
+UPLOAD_FOLDER = "/media/kingdian/uploader_priv/"#with trailing slash
+MY_UPLOAD_DIR = "/media/kingdian/uploader_priv"#no trailing slash
 tempfile.tempdir = MY_UPLOAD_DIR
 
 app = Flask(__name__)
