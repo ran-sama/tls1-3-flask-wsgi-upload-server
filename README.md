@@ -26,7 +26,7 @@ https://pypi.org/project/streaming-form-data/
 
 ## Generate your own PBKDF2 credentials:
 
-Edit the [derive_key.py](https://github.com/ran-sama/tls1-3-flask-wsgi-upload-server/blob/master/derive_key.py#L7) and state your username and password as ONE single string:
+Edit the [derive_key.py](https://github.com/ran-sama/tls1-3-flask-wsgi-upload-server/blob/master/derive_key.py#L7) and state your username AND password as ONE single string:
 
 ```
 $ python3 derive_key.py
