@@ -12,3 +12,9 @@ https://pypi.org/project/streaming-form-data/
 
 ```uwsgi --ini /home/ran/uwsgi.ini```
 
+## Screenshots:
+
+
+
+## License
+Licensed under the WTFPL license.
