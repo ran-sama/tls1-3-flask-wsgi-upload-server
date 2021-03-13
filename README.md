@@ -26,6 +26,7 @@ https://pypi.org/project/streaming-form-data/
 
 ## Generate your own PBKDF2 credentials:
 
+Edit the derive_key.py with your password and run:
 
 ```
 $ python3 derive_key.py
