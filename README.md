@@ -45,7 +45,7 @@ As HTTPS upload server you must define paths to your cryptographic keys from i.e
 
 ## Upgrade to the highest possible security
 
-You can compile a custom version of uWSGI that uses the stronger NID_secp384r1 instead of NID_X9_62_prime256v1:
+You can compile a custom version of uWSGI that uses the stronger NID_secp384r1 instead of NID_X9_62_prime256v1:  
 https://github.com/unbit/uwsgi/issues/2259#issuecomment-735774944
 
 ![alt text](https://raw.githubusercontent.com/ran-sama/tls1-3-flask-wsgi-upload-server/master/screenshots/ssllabs_rating.png)
