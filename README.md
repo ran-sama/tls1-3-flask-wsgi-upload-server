@@ -43,5 +43,14 @@ Must edit
 
 As HTTPS upload server you must define paths to your cryptographic keys from i.e. letsencrypt inside the [uwsgi.ini](https://github.com/ran-sama/tls1-3-flask-wsgi-upload-server/blob/master/uwsgi.ini#L2) for uWSGI to use them.
 
+## Upgrade to the highest possible security
+
+You can compile a custom version of uWSGI that uses the stronger NID_secp384r1 instead of NID_X9_62_prime256v1:
+https://github.com/unbit/uwsgi/issues/2259#issuecomment-735774944
+
+![alt text](https://raw.githubusercontent.com/ran-sama/tls1-3-flask-wsgi-upload-server/master/screenshots/ssllabs_rating.png)
+
+![alt text](https://raw.githubusercontent.com/ran-sama/tls1-3-flask-wsgi-upload-server/master/screenshots/activate_curve384.png)
+
 ## License
 Licensed under the WTFPL license.
