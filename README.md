@@ -30,7 +30,7 @@ Edit the derive_key.py with your OWN password and run:
 
 ```
 $ python3 derive_key.py
-Your salt key (use in the login html):
+Your salt (use in the login html):
 qNv83XARvwWcGeBYPvbXAg==
 Your PBKDF2 key (use in the WSGI code):
 b31300bd83a0bfc3e5197df305fbc00b864526f6ac6ac4f91c4352a36fa79088
