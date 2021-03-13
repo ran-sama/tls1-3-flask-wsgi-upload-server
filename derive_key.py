@@ -7,7 +7,7 @@ from base64 import b64decode
 password = b'YOURsuperSECRETpassword'
 
 salt = get_random_bytes(16)
-print("Your salt key (use in the login html):")
+print("Your salt (use in the login html):")
 print(b64encode(salt).decode('utf-8'))
 
 keys = PBKDF2(password, salt, 32, count=456789, hmac_hash_module=SHA512)
