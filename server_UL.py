@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import os, ssl, tempfile, secrets
+import os, tempfile, secrets
 from flask import Flask, request, redirect, session, abort, render_template, Response
 from streaming_form_data import StreamingFormDataParser
 from streaming_form_data.targets import FileTarget
